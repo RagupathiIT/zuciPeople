@@ -1,0 +1,41 @@
+<div class="background">
+    <div id="body">
+        <app-navbar></app-navbar>
+
+        <!-- cards -->
+        <div class="cards container ">
+            <p id="dashboard1">Dashboard</p>
+            <p id="dashboard2">Home / Dashboard</p>
+            <div class="row">
+              <div class="col-md-3 mr-3">
+                <div class="main">
+                  <h5 class="card-title "> Present <span class="month">| This Month</span> </h5>
+                  <img class="image" src="../../assets/images/present.png" alt="" srcset="">
+                  <h3 class="days ms-right">12 <span class="month">Days</span> </h3>
+                  <h5 class="card-title">18 % <span class="month">increase</span></h5>
+                </div>
+              </div>
+              <div class="col-md-3 mr-3">
+                <div class="main">
+                  <h5 class="card-title "> Absent <span class="month">| This Month</span> </h5>
+                  <img class="image" src="../../assets/images/absent.png" alt="" srcset="">
+                  <h3 class="days ms-right">4 <span class="month">Days</span> </h3>
+                  <h5 class="card-title">13 % <span class="month">increase</span></h5>
+                </div>
+              </div>
+              <div class="col-md-3 mr-3">
+                <div class="main">
+                  <h5 class="card-title "> Attendance <span class="month">| This Month</span> </h5>
+                  <img class="image" src="../../assets/images/increase.png" alt="" srcset="">
+                  <h3 class="days ms-right">89 %</h3>
+                  <h5 class="card-title">18 % <span class="month">increase</span></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="chart">
+            <canvasjs-chart [options]="lineChartOptions"></canvasjs-chart>
+        </div>
+    </div>
+</div>
