@@ -9,29 +9,13 @@ import { RegisterPageComponent } from './register-page/register-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IndexComponent } from './index/index.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { LinechartComponent } from './linechart/linechart.component';
-import { AngularMaterialModule } from './core/material.module';
-import { RouterModule } from '@angular/router';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
-import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
-import { MatIconModule } from '@angular/material/icon';
-import { AttendanceComponent } from './attendance/attendance.component';
-import { TestingComponent } from './testing/testing.component';
-import { ApplyLeaveComponent } from './apply-leave/apply-leave.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
     RegisterPageComponent,
-    IndexComponent,
-    NavbarComponent,
-    LinechartComponent,
-    AttendanceComponent,
-    TestingComponent,
-    ApplyLeaveComponent
+    IndexComponent
   ],
   imports: [
     BrowserModule,
