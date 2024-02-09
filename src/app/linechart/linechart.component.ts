@@ -16,11 +16,11 @@ export class LinechartComponent {
     {
         type: 'line',
         dataPoints: [
-        { label: 'Monday', y: 5},
-        { label: 'Tuesday', y: 7 },
-        { label: 'Wednesday', y: 9 },
-        { label: 'Thursday', y: 8 },
-        { label: 'Friday', y: 9 },
+        { label: 'Monday', y: 7},
+        { label: 'Tuesday', y: 8 },
+        { label: 'Wednesday', y: 5 },
+        { label: 'Thursday', y: 4 },
+        { label: 'Friday', y: 7 },
         ],
     },
     ],

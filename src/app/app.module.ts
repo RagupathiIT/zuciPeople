@@ -18,6 +18,8 @@ import { MatListModule } from '@angular/material/list';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 import { MatIconModule } from '@angular/material/icon';
 import { AttendanceComponent } from './attendance/attendance.component';
+import { TestingComponent } from './testing/testing.component';
+import { ApplyLeaveComponent } from './apply-leave/apply-leave.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { AttendanceComponent } from './attendance/attendance.component';
     IndexComponent,
     NavbarComponent,
     LinechartComponent,
-    AttendanceComponent
+    AttendanceComponent,
+    TestingComponent,
+    ApplyLeaveComponent
   ],
   imports: [
     BrowserModule,
